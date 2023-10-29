@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : 2
    },
-   "name" : "WWW-UTWalker",
+   "name" : "WWW-YTWalker",
    "no_index" : {
       "directory" : [
          "t",
@@ -42,17 +42,48 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008001"
+            "Const::Fast" : "0",
+            "Encode" : "0",
+            "File::Share" : "0",
+            "Filesys::DfPortable" : "0",
+            "FindBin::libs" : "0",
+            "Getopt::Long" : "0",
+            "IPC::Cmd" : "0",
+            "List::Util" : "0",
+            "Log::Dispatch" : "0",
+            "Number::Bytes::Human" : "0",
+            "Term::Encoding" : "0",
+            "Time::Piece" : "0",
+            "Try::Tiny" : "0",
+            "YAML::Syck" : "0",
+            "feature" : "0",
+            "perl" : "5.010",
+            "version" : "0.77"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.98"
+            "Test::More" : "0",
+            "Test::More::UTF8" : "0"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/TakeAsh/WWW-YTWalker/issues"
+      },
+      "homepage" : "https://github.com/TakeAsh/WWW-YTWalker",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/TakeAsh/WWW-YTWalker.git",
+         "web" : "https://github.com/TakeAsh/WWW-YTWalker"
+      }
+   },
    "version" : "v0.0.1",
+   "x_contributors" : [
+      "TakeAsh <take@TakeAsh.net>"
+   ],
    "x_serialization_backend" : "JSON::PP version 4.16",
    "x_static_install" : 1
 }

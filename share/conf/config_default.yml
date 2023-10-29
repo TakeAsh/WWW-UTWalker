@@ -1,0 +1,17 @@
+Channels:
+  PonQue:
+    Name: ポンクエ
+    Type: Channel
+    Uri: https://www.youtube.com/@PONQUECHANNEL
+  KadokawaAnime:
+    Type: Channel
+    Uri: https://www.youtube.com/@KADOKAWAanime
+    Regex: "(ストライク|ブレイブ|ワールド|ルミナス|ノーブル)ウィッチーズ|異世界おじさん|ダンジョン飯"
+  GetterRoboArc:
+    Name: ゲッターロボアーク
+    Type: PlayList
+    Uri: https://www.youtube.com/playlist?list=PLKPsuBIKuejM5dzW9XG8kDbJMgDnYHyb1
+LogDir: /var/log/YTWalker
+SaveDirs:
+  - /home/user1/Video
+LeastFreeSpace: 2GiB

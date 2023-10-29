@@ -1,8 +1,12 @@
 use strict;
-use Test::More 0.98;
+use warnings;
+use utf8;
+use Test::More;
+use Test::More::UTF8;
+use FindBin::libs "Bin=${FindBin::RealBin}";
 
 use_ok $_ for qw(
-    WWW::UTWalker
+    WWW::YTWalker
 );
 
 done_testing;

@@ -1,0 +1,4 @@
+﻿PATH=/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+
+# YTWalker
+10 4,12,20 * * * pidof -x YTWalker.pl > /dev/null || /path/to/ytwalker.pl

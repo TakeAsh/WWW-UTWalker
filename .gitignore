@@ -28,6 +28,7 @@ cover_db/
 
 MYMETA.*
 
-/WWW-UTWalker-*
+/WWW-YTWalker-*
 
 log/
+/share/conf/config.yml

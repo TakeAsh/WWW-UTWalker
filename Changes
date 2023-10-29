@@ -1,6 +1,7 @@
-Revision history for Perl extension WWW-UTWalker
+Revision history for Perl extension WWW-YTWalker
 
 {{$NEXT}}
 
     - original version
+    - rename module from WWW-UTWalker to WWW-YTWalker
 
